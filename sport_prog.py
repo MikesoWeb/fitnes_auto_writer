@@ -1,0 +1,67 @@
+count = 0
+date_s = 11
+
+f = open('sport.txt', 'w', encoding='utf-8')
+for i in range(20):
+    if count % 2 == 0:
+        date_s += 1
+        f.write('\n')
+        f.write(f'{date_s} марта 2020')
+        f.write('\n')
+        f.write('\n')
+        f.write('Приседания 100')
+        f.write('\n')
+        f.write('3 задания английский')
+        f.write('\n')
+        f.write('Минимум одна прогулка в день')
+        f.write('\n')
+        f.write('Повороты 200')
+        f.write('\n')
+        f.write('Повороты с палкой 200')
+        f.write('\n')
+        f.write('Колени вверх 60-60')
+        f.write('\n')
+        f.write('Шея 30-30')
+        f.write('\n')
+        f.write('Руки в стороны 200')
+        f.write('\n')
+        f.write('Планка со сменой рук 40-40')
+        f.write('\n')
+        f.write('Наклоны 100')
+        f.write('\n')
+        f.write('Пресс 40')
+        count += 1
+        f.write('\n')
+
+    elif count % 2 != 0:
+        date_s += 1
+
+        f.write('\n')
+        f.write(f'{date_s} марта 2020')
+        f.write('\n')
+        f.write('\n')
+        f.write('Приседания 100')
+        f.write('\n')
+        f.write('3 задания английский')
+        f.write('\n')
+        f.write('Минимум одна прогулка в день')
+        f.write('\n')
+        f.write('Повороты 200')
+        f.write('\n')
+        f.write('Повороты с палкой 200')
+        f.write('\n')
+        f.write('Колени вверх 60-60')
+        f.write('\n')
+        f.write('Шея 30-30')
+        f.write('\n')
+        f.write('Руки в стороны 200')
+        f.write('\n')
+        f.write('Планка 60- 60 - 60 -60')
+        f.write('\n')
+        f.write('Наклоны 100')
+        f.write('\n')
+        f.write('Бицепс 40')
+        f.write('\n')
+        f.write('Трицепс 40')
+        count += 1
+        f.write('\n')
